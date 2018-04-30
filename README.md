@@ -1,7 +1,7 @@
 # simple-client-server-chat
 
 °---------------------------------------°
-|      written by Asynchronousx         |
+|      written by *Asynchronousx*         |
 °---------------------------------------°
 
 Files:
