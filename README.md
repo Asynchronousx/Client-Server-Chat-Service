@@ -24,4 +24,8 @@ If you want to test it from different computer and network, change the loopback 
 in _Client.c_ marked by "127.0.0.1" with your machine server IP, to let the client 
 reach the server on a different machine.
 
+Additional:
+--------
+If you would like to modify, add features, or just comment the application, feel free.
+
 written by *Asynchronousx*.
