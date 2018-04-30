@@ -1,9 +1,5 @@
 # simple-client-server-chat
 
-°---------------------------------------°
-|      written by *Asynchronousx*         |
-°---------------------------------------°
-
 Files:
 --------
 1. Server.c - server side of the application
@@ -28,3 +24,4 @@ If you want to test it from different computer and network, change the loopback 
 in _Client.c_ marked by "127.0.0.1" with your machine server IP, to let the client 
 reach the server on a different machine.
 
+written by *Asynchronousx*.
