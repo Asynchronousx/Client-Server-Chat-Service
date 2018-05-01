@@ -11,6 +11,8 @@
 #include <netinet/ip.h> 
 #include <sys/socket.h>
 
+#define COLOR_GREEN "\x1b[32m"
+#define RESET "\x1b[0m"
 #define MESSAGE_LENGHT 64
 #define USER_LENGHT 16
 #define BACKLOG 1
@@ -126,7 +128,7 @@ int main(int argc, char* argv[]) {
                     strcpy(DISCONNECTED, otheruser);
                     EXIT_PROCEDURE('R');
                 }
-                printf("%s: %s\n",otheruser,buffer);
+                printf(COLOR_GREEN "%s: %s" RESET "\n",otheruser,buffer);
                 fflush(stdin);
             }
 
