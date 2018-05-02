@@ -128,6 +128,7 @@ int main(int argc, char* argv[]) {
                     strcpy(DISCONNECTED, otheruser);
                     EXIT_PROCEDURE('R');
                 }
+	
                 printf(COLOR_GREEN "%s: %s" RESET "\n",otheruser,buffer);
                 fflush(stdin);
             }
@@ -148,7 +149,7 @@ int main(int argc, char* argv[]) {
             }
         
 	}
-
+	    
     }
 
 }
@@ -177,6 +178,3 @@ void EXIT_PROCEDURE(char who) {
         printf("Now exiting..\n");
         kill(0,SIGINT);
     }
-
-}
-
