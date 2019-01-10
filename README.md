@@ -28,7 +28,4 @@ reach the server on a different machine.
 
 Additional:
 --------
-Made *mainly* for linux enviroinments. May not work on different platforms.
-If you would like to modify, add features, or just comment the application, feel free.
-
-written by *Asynchronousx*.
+Made *mainly* for linux enviroinments.
