@@ -8,8 +8,10 @@ Files:
 Description:
 --------
 This simple chat application is made by using socket programming in C.
-This is a 1:1 chat multimessaging service. The server will act as a client, 
-waiting for a client to connect, and chatting directly to him. 
+This is a 1:1 chat multimessaging service. Note that, for accademical purpose,
+the application is made by using forks instead of pthread_create(). So we're
+relying on a multiprocess application instead of a multithread one.
+The server will act as a client, waiting for a client to connect, and chatting directly to him. 
 The client will wait the server response, then begin to chat with the server too.
 To exit the service, just type /EXIT and press enter.
 
